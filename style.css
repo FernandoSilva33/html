@@ -1,0 +1,50 @@
+body,h2 a,input,textarea,select,button {
+    font: 14px / 20px rawline, sans-serif;
+}    
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    text-decoration: none; /* Removendo sublinhado padrão em links */
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+ul li a{
+    text-decoration: none; /* Remove a marcação do hiperlink */
+}
+
+ul li a:hover {
+    color: rgb(253, 253, 253); /* Muda a cor do texto para vermelho quando o mouse passa por cima */
+    background-color: rgb(73, 72, 72); /* Muda a cor de fundo para amarelo quando o mouse passa por cima */
+    text-decoration: none; /* Remove a marcação do hiperlink */
+}
+
+.tema-escuro #docs-internal-guid-e018ab78-7fff-a143-a2fa-fdc6fdcc77ad {
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-variant-position: normal;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.tema-escuro #ltr {
+    line-height: 1.38;
+    text-align: justify;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    padding: 0pt 0pt 6pt;
+}
