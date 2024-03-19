@@ -48,3 +48,17 @@ ul li a:hover {
     margin-bottom: 0pt;
     padding: 0pt 0pt 6pt;
 }
+
+.rodape{
+ 	color:#00BFFF;
+ 	text-align: right;
+ 	}
+ul {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}	
+a {
+    text-decoration: none;
+}
+li:hover span {
+background: #FFDEAD;
+}	
